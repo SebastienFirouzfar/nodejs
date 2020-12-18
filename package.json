@@ -1,0 +1,32 @@
+{
+  "name": "sebastienfirouzfar",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "bootstrap": "^4.5.2",
+    "dotenv": "^8.2.0",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.11.8",
+    "validator": "^13.5.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  },
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SebastienFirouzfar/nodejs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SebastienFirouzfar/nodejs/issues"
+  },
+  "homepage": "https://github.com/SebastienFirouzfar/nodejs#readme",
+  "keywords": []
+}
