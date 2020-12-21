@@ -21,5 +21,5 @@ app.post('/', (req, res) => {
     console.log(req.body);
 });
 
-// localhost:3000
+// localhost:3000 server
 app.listen(3000, () => console.log("Serveur opérationnel"));
