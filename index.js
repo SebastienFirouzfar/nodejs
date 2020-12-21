@@ -3,12 +3,13 @@ const app = express();
 
 
 //accèdes au style css
-app.use(express.static(__dirname + '/public'));
-
+app.use("/static", express.static("public"));
 app.use(express.urlencoded({extended: true }));
 
+// app.set("view eenginer", 'pug')
+
 //creation ficher ejs todo.ejs
-app.set("moteur de visualisation", "ejs");
+app.set("view engine", "ejs");
 
 
 app.get('/', (req, res) => {
